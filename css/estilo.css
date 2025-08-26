@@ -158,16 +158,29 @@ span{
 }
 @keyframes words{
     0%,25%{
-        content: "Desenvolvedor de jogos";
+        content: "desenvolvedor de jogos";
     }
     26%,50%{
-        content: "Pai de gato";
+        content: "pai de gato";
     }
     51%,75%{
-        content: "Desempregado";
+        content: "desempregado";
     }
     76%,100%{
-        content: "Estudante";
+        content: "estudante";
     }
 
+}
+@media (max-width: 995px){
+    nav{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-left: 3px solid #9E832B;
+        border-bottom: 3px solid #9E832B;
+        padding: 1rem;
+        background-color: rgba(0,0,0,0.8);
+        border-top: 0.1rem solid #9E832B;
+    }
 }
