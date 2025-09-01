@@ -303,14 +303,14 @@ span
 section p
 {
     font-size: 1.8rem;
-    line-height: 1.7;
+    line-height: 1.7rem;
     color: #e0e0e0;
     
 }
 
 #contato a
 {
-    color: #3d5ca6;
+    color: #9E832B;
     font-weight: 500;
     transition: 0.3s ease;
 }
@@ -319,4 +319,8 @@ section p
 {
     color: white;
     text-decoration: underline;
+}
+.habilidades, .formacao, .experiencia, .servicos,contato
+{
+    margin-bottom: -1000rem;
 }
