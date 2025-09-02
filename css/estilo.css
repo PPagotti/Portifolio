@@ -320,7 +320,7 @@ section p
     color: white;
     text-decoration: underline;
 }
-.habilidades, .formacao, .experiencia, .servicos,contato
+.habilidades, .formacao, .experiencia, .servicos,.contato
 {
-    margin-bottom: -1000rem;
+    margin-top: 10rem;
 }
