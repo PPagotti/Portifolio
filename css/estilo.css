@@ -16,8 +16,10 @@ html
 }
 body
 {
-    background-image: url(../img/fundo.gif);
+    background-image: url(https://images.steamusercontent.com/ugc/791991374973253058/E3360BCEB1F1EC15FAC2B598B0E3169CF0AB0674/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #fff;
     width: 100%;
     height: 100vh;
@@ -41,7 +43,7 @@ header
 .logo
 {
     font-size: 3rem;
-    color: rgb(117, 73, 36);
+    color: #f3e600;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -63,8 +65,8 @@ nav a
 nav a:hover,
 nav a.active
 {
-    color: rgb(117, 73, 36);
-    border-bottom: 3px solid #9E832B;
+    color: #f3e600;
+    border-bottom: 3px solid #55ead4;
     
 }
 section
@@ -78,7 +80,6 @@ section
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    margin-top: 20rem;
 }
 .home-content h1
 {
@@ -100,7 +101,7 @@ section
 }
 span
 {
-    color: rgb(117, 73, 36);
+    color: #f3e600;
 }
 .home-img img
 {
@@ -122,15 +123,15 @@ span
     background-color: transparent;
     font-size: 3rem;
     border-radius: 1rem;
-    border:0.2rem solid rgb(117, 73, 36);
+    border:0.2rem solid #f3e600;
     margin-top: 1rem;
 }
 .social-icons a:hover
 {
     transform: scale(1.1);
-    color: black;
-    box-shadow:0 0 25px rgb(117, 73, 36);
-    background-color: rgb(117, 73, 36);
+    color: #000;
+    box-shadow:0 0 25px #f3e600;
+    background-color: #f3e600;
 }
 .btn
 {
@@ -138,8 +139,8 @@ span
     text-align: center;
     padding: 1rem 2rem;
     font-size: 2rem;
-    color: rgb(255, 255, 255);
-    background-color:rgb(117, 73, 36) ;
+    color: black;
+    background-color:	#f3e600;
     transition: 0.5s ease;
     border-radius: 3rem;
     margin-top: 1rem;
@@ -162,7 +163,7 @@ span
 .typing-text span::before
 {
     content: "";
-    color: rgb(117, 73, 36);
+    color: #f3e600;
     animation: words 28s infinite;
 }
 .typing-text span::after
@@ -177,7 +178,7 @@ span
 }
 @keyframes cursor{
     to{
-        border-left: 3px solid #9E832B;
+        border-left: 3px solid #55ead4;
     }
 }
 @keyframes words
@@ -203,11 +204,11 @@ span
         position: absolute;
         top: 0;
         right: 0;
-        border-left: 3px solid #9E832B;
-        border-bottom: 3px solid #9E832B;
+        border-left: 3px solid #55ead4;
+        border-bottom: 3px solid #55ead4;
         padding: 1rem;
         background-color: rgba(0,0,0,0.8);
-        border-top: 0.1rem solid #9E832B;
+        border-top: 0.1rem solid #55ead4;
     }
     nav.active
     {
@@ -223,7 +224,7 @@ span
     {
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #9E832B;
+        border-bottom: 0.5rem solid #55ead4;
     }
 
 }
@@ -275,7 +276,7 @@ span
 {
     display: block;
     height: 4px;
-    background-color:  #9E832B;
+    background-color:  #f3e600;
     border-radius: 2px;
 }
 
@@ -295,7 +296,7 @@ span
 {
     font-size: 3rem;
     margin-bottom: 2rem;
-    border-left: 5px solid #9E832B;
+    border-left: 5px solid #f3e600;
     padding-left: 1.5rem;
     color: #e0e0e0;
 }
@@ -310,7 +311,7 @@ section p
 
 #contato a
 {
-    color: #9E832B;
+    color: #f3e600;
     font-weight: 500;
     transition: 0.3s ease;
 }
