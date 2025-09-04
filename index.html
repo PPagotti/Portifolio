@@ -19,22 +19,20 @@
         <span></span>
         </label>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#sobre">sobre</a>
+            <a href="#home" class="active">Home</a>
             <a href="#habilidades" >Habilidades</a>
             <a href="#formacao" >Formação</a>
             <a href="#experiencia">Experiência</a>
-            <a href="#contato">Contato</a>
         </nav>
     </header>
     <section class="home">
         <div class="home-img">
-            <img src="img/pip.jpg" alt="pip o gato">
+            <img  id=home src="https://avatars.githubusercontent.com/u/167125767?s=400&u=bdf03b2b9d3d0848d3dcf4b34bc0c6425a6334dd&v=4">
         </div>
         <div class="home-content">
             <h1>Opa, meu nome é <span> Pagotti</span>!</h1>
             <h3 class="typing-text">Eu sou <span></span></h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam voluptas voluptates id, ipsam perspiciatis animi excepturi distinctio ut explicabo laboriosam obcaecati hic nisi natus! Eos nesciunt mollitia enim distinctio. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            <p> Tenho 18 anos e cursando último ano do Ensino Médio no SENAC da Aclimação, moro na Zona Oeste de São Paulo, gosto de jogos. programação e música</p>
                 <div class="social-icons">
                     <a href="https://www.youtube.com/watch?v=U1mqDs20kVY&pp=ygUId2VlemVyZWQ%3D"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/PPagotti"><i class="fa-brands fa-github"></i></a>
@@ -42,28 +40,43 @@
                     <a href="https://open.spotify.com/user/315cm2yedrlswt2anm4q5x3xaif4?si=WftAHrcVRqO0g5z5fm9zvA"><i class="fa-brands fa-spotify"></i></a>
                     <a href="https://www.last.fm/pt/user/treixem"><i class="fa-brands fa-lastfm"></i></a>
                 </div>
-            <a href="#" class="btn">Me contrate!</a>
+            <a href="#contato" class="btn">Me contrate!</a>
         </div>
     </section>
-    <section id="servicos" class="blocos">
-        <h3><span>Serviços</span></h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni iste quam vero assumenda saepe. Hic fuga corporis repellat explicabo, pariatur iusto similique blanditiis deserunt at dolor? Reiciendis pariatur ullam rem.</p>
+    <section id="sobre" class="blocos">
     </section>
     <section id="habilidades" class="blocos">
         <h3><span>Habilidades</span></h3>
-        <p>Pacote Office Básico, </p>
+        <p>- Pacote Office Básico</p>
+        <p>- Conhecimento básico em HTML e CSS, futuramente em JavaScript</p>
+        <p>- Conhecimento básico em montagem e formatação de computadores</p>
+        <p>- Conhecimento básico em redes de computadores</p>
+        <p>- Sempre buscando aprender e melhorar</p>
     </section>
     <section id="formacao" class="blocos">
         <h3><span>Formação</span></h3>
-        <p>Estudante do 3° ano do Ensino Médio com Técnico Integrado em Informática pelo SENAC.</p>
+        <p>- Estudante do 3° ano do Ensino Médio com Técnico Integrado em Informática pelo SENAC.</p>
+        <p>- Pretendo fazer um curso livre pelo SENAC sobre excel do básico ao avançado</p>
+        <p>- Pretendo fazer diversos cursos técnicos em relação a desenvolvimento de jogos</p>
     </section>
     <section id="experiencia" class="blocos">
         <h3><span>Experiência</span></h3>
         <p>Ainda não tenho nenhuma experiência, por isso estou em busca de uma primeira oportunidade, interessado na área de TI ou de Administração.</p>
     </section>
     <section id="contato" class="blocos">
-        <h3><span>Contato</span></h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aspernatur unde facilis cupiditate aut vel quam aperiam. Velit aperiam voluptate, sint tempore recusandae in maxime animi fugit, fugiat cumque similique.</p>
+        <h3><span>Formulário de contato</span></h3>
+        <form action="/enviar-dados" method="POST" id="forms">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea>
+        <br><br>
+        <button type="submit" id="buttonforms">Enviar</button>
+        </form>
     </section>
 </html>
 
