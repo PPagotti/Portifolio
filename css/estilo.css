@@ -95,8 +95,9 @@ section
 }
 .home-content p
 {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 3rem;
+    line-height: 4rem;
+
 }
 span
 {
@@ -187,16 +188,19 @@ span
 }
 @keyframes words
 {
-    0%,25%{
+    0%,20%{
         content: "desenvolvedor de jogos";
     }
-    26%,50%{
+    21%,40%{
         content: "pai de gato";
     }
-    51%,75%{
-        content: "desempregado";
+    41%,60%{
+        content: "entusiasta de jogos";
     }
-    76%,100%{
+    61%,80%{
+        content: "apaixonado por café";
+    }
+    81%,100%{
         content: "estudante";
     }
 
@@ -294,8 +298,6 @@ span
         display: block;
     }
 }
-
-
 .blocos h3
 {
     font-size: 4rem;
@@ -313,16 +315,13 @@ section p
     line-height: 6rem;
     
 }
-/*ainda nao utilizei essa parte do css*/
-#contato a
+.github
 {
     color: #f3e600;
-    font-weight: 500;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
 }
-
-#contato a:hover
+.github:hover
 {
-    color: white;
-    text-decoration: underline;
+    font-size: 5rem;
+    border-bottom: #55ead4 solid 0.3rem;
 }
